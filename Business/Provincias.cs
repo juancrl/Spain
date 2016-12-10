@@ -1,4 +1,13 @@
-﻿using System;
+﻿// --------------------------------------------------------------------
+// Project : SPAIN
+// Dec 2016
+// Códigos postales, Provincias, Localidades, Comunidades autónomas, Indexación sonora por METAPHONE
+// Class      : SPAIN                 (Localidades)
+// Class Name : [Business.Spain]
+// Author : Juan Carlos Ruiz López, juancarlosruizlopez@hotmail.com
+// --------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

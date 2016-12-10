@@ -1,4 +1,13 @@
-﻿using System;
+﻿// --------------------------------------------------------------------
+// Project : SPAIN
+// Dec 2016
+// Códigos postales, Provincias, Localidades, Comunidades autónomas, Indexación sonora por METAPHONE
+// Class      : MetaphoneES                 (indexación por fonemas en castellano)
+// Class Name : [Business.MetaphoneES]
+// Author : Juan Carlos Ruiz López, juancarlosruizlopez@hotmail.com
+// --------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,13 +18,13 @@ namespace Business
     public class MetaphoneES    // PhoneticAlgorithmsES():
     {
         // Based on 
-        //The Spanish Metaphone Algorithm(Algoritmo del Metáfono para el Español)
+        // The Spanish Metaphone Algorithm(Algoritmo del Metáfono para el Español)
         // (C) 1990 by Lawrence Philips. English double metaphone algorithm implementation by
         // Andrew Collins - January 12, 2007 who claims no rights to this work
         // (http://www.atomodo.com/code/double-metaphone)
-        // The metaphone port adapted to the Spanish Language is authored by Alejandro Mosquera <amosquera @dlsi.ua.es> November, 2011 and is covered under this copyright:
-        // Copyright 2011, Alejandro Mosquera <amosquera @dlsi.ua.es>.  All rights reserved.
-
+        // The metaphone port adapted to the Spanish Language is authored by Alejandro Mosquera <amosquera @dlsi.ua.es> November, 2011 
+        // Port mucho más avanzado : JC, Dec 2016
+        
 
         /*
            @staticmethod
